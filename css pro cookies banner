@@ -1,0 +1,28 @@
+<style>
+/* 1. Hlavní tlačítko "Přijmout vše" (vyplněné zeleně) */
+.cky-btn-accept {
+    background-color: #5E6D5E !important;
+    color: #ffffff !important;
+    border: 1px solid #5E6D5E !important;
+    border-radius: 5px !important;
+}
+
+/* 2. Tlačítka "Přizpůsobit" a "Odmítnout vše" (bílý podklad, zelený text a rámeček) */
+.cky-btn-customize, 
+.cky-btn-reject {
+    background-color: #ffffff !important;
+    color: #5E6D5E !important;
+    border: 1px solid #5E6D5E !important;
+    border-radius: 5px !important;
+}
+
+/* 3. Jemný efekt při najetí myší (hover) */
+.cky-btn-accept:hover {
+    background-color: #4a574a !important; /* Lehce tmavší zelená */
+    border-color: #4a574a !important;
+}
+.cky-btn-customize:hover, 
+.cky-btn-reject:hover {
+    background-color: #f4f5f4 !important; /* Lehounce našedlé/nazelenalé pozadí */
+}
+</style>
