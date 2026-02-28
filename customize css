@@ -1,0 +1,31 @@
+/* 1. Nastavení kontejneru a maska pro ztracené okraje fotky */
+selector {
+    position: relative; /* Důležité pro umístění linek */
+    /* Maska pro plynulé okraje zleva a zprava */
+    mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+/* 2. Horní linka */
+selector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Zde si můžeš upravit tloušťku linky */
+    background-color: #BCAC8F; /* Tvoje barva */
+    z-index: 10; /* Aby byla linka vždy vidět nad fotkou */
+}
+
+/* 3. Spodní linka */
+selector::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Zde si můžeš upravit tloušťku linky */
+    background-color: #BCAC8F; /* Tvoje barva */
+    z-index: 10; /* Aby byla linka vždy vidět nad fotkou */
+}
