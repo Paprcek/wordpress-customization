@@ -1,0 +1,7 @@
+<style>
+html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    position: relative !important;
+}
+</style>
