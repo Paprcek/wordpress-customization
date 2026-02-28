@@ -1,0 +1,7 @@
+add_action('wp_head', function() {
+?>
+
+SEM VLOŽ TVŮJ ZKOPÍROVANÝ SCRIPT OD GOOGLU (VČETNĚ TĚCH <SCRIPT> ZNAČEK)
+
+<?php
+});
