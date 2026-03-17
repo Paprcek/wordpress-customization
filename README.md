@@ -1,5 +1,5 @@
 # wordpress-customization
-Tento repozitář obsahuje vlastní úpravy, skripty a fixy pro web postavený na WordPress (Elementor), zaměřený na uvolnění napětí a kurzy ergonomie. 
+Tento repozitář obsahuje vlastní úpravy, skripty a fixy pro web postavený na WordPress (Elementor). 
 
 Custom CSS: vizuální sjednocení formulářů (WPForms) s designem stránky
             skript pro automatickou odpověď pro WPForms
